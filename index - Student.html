@@ -1,0 +1,99 @@
+<head>
+	<link rel="stylesheet" href="styles.css" type="text/css">
+	<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+	
+	<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+	<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=AM_CHTML"></script>
+
+</head>
+
+<body>
+	<div class ='centerContainer'>
+	
+		<div id="AnimationContainer">
+			<script src="Pendulum.js"></script>
+			
+			<Button id='PlayPause' type='Button' onclick='ToggleSim()'>Play/Pause</Button>
+			
+		</div>
+	
+		<div id="QuestionContainer"> 
+			<span><h3>Question:</h3></span> 
+		
+			<span id="TheQuestion"><h3></h3></span>
+
+			<form>
+		
+			<input id='QuestionTextFeild' type="text"></input>
+			
+			</form>
+				
+				<Button id='AnswerQuestion' type='Button' onclick='QuestionTest()'>Answer</Button>
+				<Button id='GenerateQuestion' type='Button' onclick='Practice_start()'>Start</Button>
+				
+				<span id="solution line1" style="position:absolute;top:190px;">Formula: `T = 2pisqrt(G/L)`</span>
+				<span id="solution line2" style="position:absolute;top:235px;"></span>
+			
+
+		</div>
+		
+		<div id="InputContainer"> 
+			
+			<span id="InputTitle"><h3>Mass:</h3></span>	<form>	
+			
+			<input id='MassTextFeild' type="text">	</input>
+			
+			</form>
+			
+			<span><h3>Angle:</h3></span>  <form>	
+			
+			<input Id='AngleTextFeild' type="text">	</input>
+			
+			</form>
+			
+			<span><h3>Length:</h3></span>	<form>	
+			
+			<input id='LengthTextFeild' type="text">	</input>
+			
+			</form>
+			
+			<span><h3>Gravity:</h3></span>	<form>	
+			
+			<input id='GravTextFeild' type="text">	</input>
+			
+			</form>
+			
+			<Button id='SimGo' type='Button' onclick='Take_Input()'>Go!</Button>
+			
+		</div>
+	
+		<div id="OutputContainer">
+			<span><h3>Output:<h3></span>
+			
+			<span id='KELBL'>Kinetic Energy: </span>
+		
+			<span id='AccelerationLBL'>Acceleration: </span>
+			<br>
+			<span id='VelocityLBL'>Velocity: </span>
+			<br>
+			<span id='GPELBL'>Gravitational Energy: </span>
+		</div>
+	
+		<div id="GraphContainer">
+			<span><h3>Graph:</h3></span>
+			
+			<span><h3>Energy against time</h3></span>
+			<div id = "EnergyChart"> </div>
+			
+			<span><h3>Velocity against time:<h3></span>
+			<div id = "VelocityChart"> </div>
+			
+		</div>
+	
+	</div>
+	
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.js"></script>
+	<script src = "Student Pendulum.js"></script>
+
+</body>

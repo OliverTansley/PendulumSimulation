@@ -1,0 +1,261 @@
+/* Consistent Website Styles */
+body{
+	padding:0px;
+	margin-left:7px;
+	font-family: Courier New;
+}
+
+/* container styles For main Simulation page */
+
+.centerContainer{
+	position:absolute;
+	height:1000px;
+	width:700px;
+}
+
+#AnimationContainer{
+	
+	height:55%;
+	width: 51%;
+	background-color:#b30417;
+	position:absolute;
+	top:1%;
+	background:none;
+	border: solid 1px #DCDCDC;
+	border-radius:20px;
+	padding:4px;
+	box-shadow:2px 2px 3px grey;
+}
+
+#OutputContainer{
+	
+	height: 15%;
+	width: 45%;
+	background:none;
+	position:absolute;
+	top:1%;
+	left:54%;
+	border: solid 1px #DCDCDC;
+	border-radius:20px;
+	padding:4px;
+	box-shadow:2px 2px 3px grey;
+}
+
+#InputContainer{
+	
+	height:38%;
+	width: 45%;
+	background:none;
+	position:absolute;
+	top:18%;
+	left:54%;
+	border: solid 1px #DCDCDC;
+	border-radius:20px;
+	padding:4px;
+	padding-top:2px;
+	box-shadow:2px 2px 3px grey;
+}
+
+#QuestionContainer{
+	
+	height: 47.9%;
+	width: 99%;
+	background:none;
+	position:absolute;
+	top:59%;
+	border: solid 1px #DCDCDC;
+	border-radius:20px;
+	padding:4px;
+	box-shadow:2px 2px 3px grey;
+}
+
+#GraphContainer{
+	
+	height: 106%;
+	width: 90%;
+	background:none;
+	position:absolute;
+	top:1%;
+	left:104%;
+	border: solid 1px #DCDCDC;
+	border-radius:20px;
+	padding:4px;
+	box-shadow:2px 2px 3px grey;
+}
+
+/* Play/Pause button Styles */
+
+#PlayPause{
+	
+	position:absolute;
+	left:40%;
+	top:90%;
+	background:none;
+	border-radius:10px;
+	border:solid 2px #DCDCDC; 
+	height:40px;
+	box-shadow:2px 2px 2px gray;
+}
+
+#PlayPause:hover{
+	box-shadow:4px 4px 4px gray;
+}
+
+#PlayPause:focus{
+	box-shadow: 1px 1px 1px white;
+	outline:0;
+}
+
+#PlayPause:active{
+	box-shadow: 1px 1px 1px grey;
+}
+
+/* Simulation start button Styles */
+
+#SimGo{
+	
+	position:absolute;
+	left:85%;
+	top:85%;
+	background:none;
+	border-radius:10px;
+	border:solid 2px #DCDCDC; 
+	height:40px;
+	box-shadow:2px 2px 2px gray;
+}
+
+#SimGo:hover{
+	box-shadow:4px 4px 4px gray;
+}
+
+#SimGo:focus{
+	box-shadow: 0px 0px 0px white;
+	outline:0;
+}
+
+#SimGo:active{
+	box-shadow: 1px 1px 1px grey;
+}
+/*	Input Feild Styles	*/
+
+#AngleTextFeild{
+	
+	border:1px solid GREY;
+	border-radius:5px;
+	height:25px;
+	width:250px;
+}
+
+#MassTextFeild{
+	
+	border:1px solid GREY;
+	border-radius:5px;
+	height:25px;
+	width:250px;
+}
+
+#LengthTextFeild{
+	
+	border:1px solid GREY;
+	border-radius:5px;
+	height:25px;
+	width:250px;
+}
+
+#GravTextFeild{
+	
+	border:1px solid GREY;
+	border-radius:5px;
+	height:25px;
+	width:250px;
+}
+
+/* Question element styles */ 
+#QuestionTextFeild{
+	
+	border:1px solid GREY;
+	border-radius:5px;
+	height:25px;
+	width:250px;
+	top:100px;
+	left:1%;
+}
+#AnswerQuestion{
+	
+	position:absolute;
+	background:none;
+	border-radius:10px;
+	border:solid 2px #DCDCDC; 
+	height:40px;
+	width:249px;
+	left:1%; 
+	box-shadow:2px 2px 2px gray;
+}
+
+#AnswerQuestion:hover{
+	box-shadow:4px 4px 4px gray;
+}
+
+#AnswerQuestion:focus{
+	box-shadow: 0px 0px 0px white;
+	outline:0;
+}
+
+#GenerateQuestion{
+	
+	position:absolute;
+	left:42%;
+	background:none;
+	border-radius:10px;
+	border:solid 2px #DCDCDC; 
+	height:40px;
+	width:249px;
+	box-shadow:2px 2px 2px gray;
+
+}
+
+#GenerateQuestion:hover{
+	box-shadow:4px 4px 4px gray;
+}
+
+#GenerateQuestion:focus{
+	box-shadow: 0px 0px 0px white;
+	outline:0;
+}
+
+/* Styles For Home Page */
+#pageHeader{
+	
+	width:98%;
+	height:100px;
+	background-color:#f57842;
+	border-radius:20px;
+	margin-bottom:40px;
+	text-align:center;
+}
+
+.Linkcontainer{
+	
+	width:92%;
+	height:20px;
+	border:1px solid grey;
+	border-radius:20px;
+	padding:20px;
+	margin:5px;
+	text-align:center;
+}
+
+/* Link styles */
+a{
+	color:grey;	
+}
+
+a:focus{
+	color:red;
+}
+
+/* Graph Styles */
+
+#VelocityChart{
+	top:10%;
+}
